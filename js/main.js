@@ -1,8 +1,8 @@
-axios.get("/../api/dischi.php").then(function (response) {
+axios.get("api/dischi.php").then(function (response) {
         const dischi_col = document.getElementById("dischi_col")
         const dischi = response.data;
 
-        console_log(response);
+        console.log(response);
 
         for (let i = 0; i < dischi.length; i++) {
             dischi_col.innerHTML += `
