@@ -19,15 +19,8 @@
     <div id="app">
         <div class="container py-5">
             <div class="row row-cols-3">
-                <div class="col">
-                    <div class="card">
-                        <img src="" class="card-img-top" alt="image not found">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
+                <div class="col" id="dischi_col">
+                    
                 </div>
             </div>
         </div>
